@@ -17,8 +17,10 @@ Chances are, you've probably had a Google Account before(or at least a GMail acc
 After you go into the console page, click on Create Project, and name your Project. I will just name my project as "firebase-hosting".
 
 ![Add Console]({{ "/assets/img/cap15.PNG" | absolute_url }})
+
 ![Project Name]({{ "/assets/img/cap16.PNG" | absolute_url }})
-![Create Project]({{ "/assets/img/cap16.PNG" | absolute_url }})
+
+![Create Project]({{ "/assets/img/cap17.PNG" | absolute_url }})
 
 This is all you need to do in the firebase webpage. The rest, will be done in CLI (Command Line Interface). Yay or Yikes???
 
@@ -107,6 +109,7 @@ In the Domain area, click on to `Connect Domain`.
 Proceed onto the steps just like the screenshot below.
 
 ![Domain1]({{ "/assets/img/cap21.PNG" | absolute_url }})
+
 ![Domain2]({{ "/assets/img/cap22.PNG" | absolute_url }})
 
 Now, notice that in your DNS settings, there might need to be some adjustment on your hostname. For instance, in my NameCheap, I should change my hostname into `@`.
@@ -115,7 +118,9 @@ Now, notice that in your DNS settings, there might need to be some adjustment on
 
 And the last thing to add is the A record to direct the IP into your domain name. In this case, exactly follow the instruction that Google provides.
 
+![Domain3]({{ "/assets/img/cap24.PNG" | absolute_url }})
+
 Voila! You have a website running now!
 
-checkout my [website](https://hosting.iomario.me/)
+checkout my [website](https://hosting.iomario.me/) running on Google Hosting
 
